@@ -1,0 +1,38 @@
+Date,Date of record,
+Customer Code,Customer = broiler farm. Every broiler farm has a different letter,
+House,A broiler farm can have multiple houses. Every house has a different number,
+Flock,"Every flock within a customer / house combination has a different code. Most of the time it is ""year and month of hatch of flock"". Combination ""Customer Code"", ""House"" and ""Flock"" will result in an unique flock number.",
+Genetic Line Code,"Genetic Line = Breed, e.g. Ross 308, Cobb 500, Hubbard 757, where each sub-line is classified as another breed, e.g. Hubbard 757 and Hubbard 987 are classified as 2 different breeds.",
+#Birds at arrival,Number of birds placed in the house at arrival.,
+hatch date,Date of hatching of the birds,
+Date of arrival,"Date of arrival of the birds at the broiler farm. Normally the same day as the hatch date, but in special concepts, like HatchCare and HatchBrood, the birds can arrive at the farm between 1 and 4 days old of age.",
+Date of removal,Date that birds went to slaughterhouse.,
+Date of deactivation,Date that the flock was deactivated in the system.,
+Veterinarian,Code of Veterinarian,
+Hatchery,Code of Hatchery,
+Age (Days),Age of flock in days at date of record,
+Birds Present (#),Number of birds present in the house at record date.,
+Birds thinned (#),Number of birds taken out the house because of underperformance or illness (culled).,
+Mortality (#),Number of death birds.,
+Mortality Cum. (#),Number of death birds cummulative over the production cycle.,
+Cum. Perc. Mortality (%),Total number of death birds over the production cycle divided by the total number of birds as a percentage.,
+Liveability (%),Percentage of birds alive (= 100 - mortality percentage),
+Body Weight (g),(Average) body weight of the birds in grams,
+Uniformity (%),Uniformity of the flock (= percentage of the birds within the range of -10% and +10% deviation from the average bird weight).,
+Daily Gain (g),Daily weight gain of the birds on record day.,
+Avg. Daily Gain (g/d),Average daily weight gain of the birds over the production cycle till date.,
+Feed Intake (kg/house),Feed intake in kg of the house.,
+FCR Cum.,FCR Cum = Feed Conversion Ratio Cummulative = kg feed intake divided by kg weight gain over the production cycle till date,This number is not consistent in the file! Can not be used probably - at least check proparly!!
+Wheat / Bird Cum.,Amount of wheat added per bird next to the regular feed cummulative over production cycle till date,This number is not consistent in the file! Can not be used probably - at least check proparly!!
+Wheat / Bird,Amount of wheat added per bird next to the regular feed at date of record.,This number is not consistent in the file! Can not be used probably - at least check proparly!!
+Wheat / Day,Total amount of wheat added in a house next to the regular feed,This number is not consistent in the file! Can not be used probably - at least check proparly!!
+Feed Intake / Bird Housed Cum. (kg),Cummulative feed intake per bird housed in during the production cycle till date in kg,This number is not consistent in the file! Can not be used probably - at least check proparly!!
+Feed Intake / Bird (g),Feed intake per bird in gram at date of record,This number is not consistent in the file! Can not be used probably - at least check proparly!!
+Wheat (g),Wheat intrake per bird in gram at date of record.,This number is not consistent in the file! Can not be used probably - at least check proparly!!
+FCR,FCR = Feed Conversion Ratio = kg feed intake divided by kg weight gain at record date,This number is not consistent in the file! Can not be used probably - at least check proparly!!
+Water (l),Liters of water intake per house,
+Water Intake / Bird (ml),Water intake per bird on record day in ml.,
+Water Intake / Bird Cum. (l),Water intake per bird cummulative over production cycle till date in liters.,
+Water : Feed,Water Feed Ratio = liter of water intake divided by kg of feed intake of the house at record date,
+Water : Feed Cum.,Water Feed Ratio calculated over the production cycle till date.,
+Comment,,
